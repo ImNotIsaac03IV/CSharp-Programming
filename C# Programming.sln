@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterVocals", "FilterVocal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteChars", "DeleteChars\DeleteChars.csproj", "{BD864425-A3EA-4A4A-A13C-463DFB8D71B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROT13", "ROT13\ROT13.csproj", "{EAAA0150-65C8-4BBA-9B05-13F39AF664DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BD864425-A3EA-4A4A-A13C-463DFB8D71B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD864425-A3EA-4A4A-A13C-463DFB8D71B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD864425-A3EA-4A4A-A13C-463DFB8D71B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAA0150-65C8-4BBA-9B05-13F39AF664DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAA0150-65C8-4BBA-9B05-13F39AF664DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAA0150-65C8-4BBA-9B05-13F39AF664DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAA0150-65C8-4BBA-9B05-13F39AF664DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
