@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.Net.NetworkInformation;
 
 class Program
 {
@@ -8,4 +9,3 @@ class Program
 
     }
 }
-    
