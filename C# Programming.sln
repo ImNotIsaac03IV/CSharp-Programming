@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCompress", "TextCompres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectNumber", "PerfectNumber\PerfectNumber.csproj", "{46E0CF61-83F4-4719-9660-91D7CAF67B4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{46E0CF61-83F4-4719-9660-91D7CAF67B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E0CF61-83F4-4719-9660-91D7CAF67B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E0CF61-83F4-4719-9660-91D7CAF67B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
