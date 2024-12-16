@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectNumber", "PerfectNum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong number", "Armstrong number\Armstrong number.csproj", "{13B44B48-B0EB-4321-B337-0A4F7E9C494F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E4964F-62BF-4070-81FB-F1C7E27A16AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B44B48-B0EB-4321-B337-0A4F7E9C494F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B44B48-B0EB-4321-B337-0A4F7E9C494F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B44B48-B0EB-4321-B337-0A4F7E9C494F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B44B48-B0EB-4321-B337-0A4F7E9C494F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
