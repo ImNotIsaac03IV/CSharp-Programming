@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong number", "Armstro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Christmas Tree", "Christmas Tree\Christmas Tree.csproj", "{845B9CEE-4A98-42A0-BA75-87E0A8659805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turtle", "Turtle\Turtle.csproj", "{F2847489-0DE9-425E-AF20-2F04F3E9908C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{845B9CEE-4A98-42A0-BA75-87E0A8659805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845B9CEE-4A98-42A0-BA75-87E0A8659805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845B9CEE-4A98-42A0-BA75-87E0A8659805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
