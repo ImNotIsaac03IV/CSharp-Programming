@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Christmas Tree", "Christmas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turtle", "Turtle\Turtle.csproj", "{F2847489-0DE9-425E-AF20-2F04F3E9908C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirp", "Mirp\Mirp.csproj", "{84FEEE90-2C92-40C6-ADC9-ACF6E4639F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROT13WithMethod", "ROT13WithMethod\ROT13WithMethod.csproj", "{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2847489-0DE9-425E-AF20-2F04F3E9908C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FEEE90-2C92-40C6-ADC9-ACF6E4639F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FEEE90-2C92-40C6-ADC9-ACF6E4639F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FEEE90-2C92-40C6-ADC9-ACF6E4639F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FEEE90-2C92-40C6-ADC9-ACF6E4639F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
