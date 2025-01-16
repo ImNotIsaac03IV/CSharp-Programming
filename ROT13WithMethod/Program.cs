@@ -11,40 +11,33 @@ namespace ROT13WithMethod
         static void Main(string[] args)
         {
             Console.WriteLine("Encryption/Decryption with ROT13");
-            Console.Write("Plain: ");
-            Rot13();
-            Console.ReadKey();
+            Console.Write("Please enter a plain text: ");
+            string textInput = Console.ReadLine();
+
+            string encodedTextDisplay = Encrypt(textInput);
+            string decodedTextDisplay = Decode(encodedTextDisplay);
+
+            Console.WriteLine($"Plain:     {textInput}");
+            Console.WriteLine($"Encrypted: {encodedTextDisplay}");
+            Console.WriteLine($"Decryted:  {decodedTextDisplay}");
         }
-
-        static void Rot13()
+        static string Encrypt(string encodeText)
         {
-            string encrypt = "";
-            string input = Console.ReadLine();
-
-            for (int i = 0; i < input.Length; i++)
+            string encodedTextOutput = "";
+            for (int i = 0; i < encodeText.Length; i++)
             {
-                char c = input[i];
-
-                if (c >= 'a' && c < 'z')
+                char c = encodeText[i];
+                if (c >= 'a' && c <= 'z')
                 {
                     c = (char)((c - 'a' + 13) % 26 + 'a');
                 }
-                encrypt += c;
+                encodedTextOutput += c;
             }
-            string decrypt = "";
-            for (int j = 0; j < encrypt.Length; j++)
-            {
-                char s = encrypt[j];
-
-                if (s >= 'a' && s < 'z')
-                {
-                    s = (char)((s - 'a' + 13) % 26 + 'a');
-                }
-                decrypt += s;
-            }
-
-            Console.WriteLine($"Encrypted: {encrypt}");
-            Console.WriteLine($"Decrypted: {decrypt}");
+            return encodedTextOutput;
+        }
+        static string Decode(string encodeText)
+        {
+            return Encrypt(encodeText);
         }
     }
 }
