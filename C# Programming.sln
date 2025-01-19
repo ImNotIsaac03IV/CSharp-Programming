@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirp", "Mirp\Mirp.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROT13WithMethod", "ROT13WithMethod\ROT13WithMethod.csproj", "{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE48063D-0C8D-4BBC-AABD-AAFA1ECB243F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
