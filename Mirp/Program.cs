@@ -20,15 +20,18 @@ namespace Mirp
                     Console.Write($"{i}, ");
                     counter++;
 
-                    if (counter % 10 == 0)
-                    {
-                        Console.WriteLine();
-                    }
+                    LineBreaker(counter);
                 }
             }
             Console.WriteLine();
         }
-
+        static void LineBreaker(int counter)
+        {
+            if (counter % 10 == 0)
+            {
+                Console.WriteLine();
+            }
+        }
         static bool isPrim(int numberInput)
         {
             int counter = 0;
@@ -45,7 +48,6 @@ namespace Mirp
             }
             return false;
         }
-
         static int reversedNumberInput(int numberInput)
         {
             string reversedNumberInput = "";
@@ -57,7 +59,6 @@ namespace Mirp
             }
             return int.Parse(reversedNumberInput);
         }
-
         static bool IsMirp(int numberInput)
         {
             if (isPrim(numberInput) && isPrim(reversedNumberInput(numberInput)))
