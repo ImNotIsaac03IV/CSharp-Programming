@@ -22,7 +22,7 @@ namespace TextCompress
             {
                 start++;
             }
-            while (end >= input.Length && input[end] == ' ')
+            while (end >= input.Length - start && input[end] == ' ')
             {
                 end--;
             }
