@@ -16,7 +16,8 @@ namespace WordCount
             string input = Input();
             while (End(input))
             {
-                Console.Write("The sentence: ");
+                Console.Write($"The sentence: \"{input}\" contains {WordsCounter(input)}");
+                Console.WriteLine();
                 WordsCounter(input);
                 Console.WriteLine();
                 Console.Write("Sentence: ");
@@ -85,7 +86,7 @@ namespace WordCount
             }
             return output;
         }
-        static void WordsCounter(string textInput)
+        static int WordsCounter(string textInput)
         {
             textInput = RemoveInnerSpace(textInput);
             string output = "";
@@ -114,13 +115,10 @@ namespace WordCount
                 }
                 if (counter >= 1)
                 {
-                    Console.WriteLine($"\"{textInput}\" has {counter} words");
+                    return counter;
                 }
             }
-            if(textInput == "")
-            {
-                Console.WriteLine($"\"{textInput}\" has 0 words");
-            }
+            return 0;
         }
     }
 }
