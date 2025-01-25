@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROT13WithMethod", "ROT13Wit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw a House", "Draw a House\Draw a House.csproj", "{39821414-E437-4E17-9E2B-49CE277821D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37EACC4-F016-4B74-BEE0-4D38D85C4C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39821414-E437-4E17-9E2B-49CE277821D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39821414-E437-4E17-9E2B-49CE277821D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39821414-E437-4E17-9E2B-49CE277821D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39821414-E437-4E17-9E2B-49CE277821D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
