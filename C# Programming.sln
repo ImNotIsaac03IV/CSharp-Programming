@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigInteger", "BigInteger\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTLLeondingNumber", "HTLLeondingNumber\HTLLeondingNumber.csproj", "{930756C3-90F9-4FAF-9E0E-DE8D1C0DA0CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeStatistic", "GradeStatistic\GradeStatistic.csproj", "{10464137-1113-4C65-8DDC-67DB246E0F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-Statistic", "Array-Statistic\Array-Statistic.csproj", "{EB5A3F3C-2648-48CF-9F4E-8FF111CCA5AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{930756C3-90F9-4FAF-9E0E-DE8D1C0DA0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930756C3-90F9-4FAF-9E0E-DE8D1C0DA0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930756C3-90F9-4FAF-9E0E-DE8D1C0DA0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10464137-1113-4C65-8DDC-67DB246E0F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10464137-1113-4C65-8DDC-67DB246E0F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10464137-1113-4C65-8DDC-67DB246E0F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10464137-1113-4C65-8DDC-67DB246E0F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5A3F3C-2648-48CF-9F4E-8FF111CCA5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5A3F3C-2648-48CF-9F4E-8FF111CCA5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5A3F3C-2648-48CF-9F4E-8FF111CCA5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5A3F3C-2648-48CF-9F4E-8FF111CCA5AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
