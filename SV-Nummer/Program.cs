@@ -10,21 +10,25 @@ namespace SV_Nummer
     {
         static void Main(string[] args)
         {
+            string input;
             Console.WriteLine("Check a SV Number");
             Console.WriteLine("*************************");
-
-            string input;
-            int[] weight = { 3, 7, 9, 0, 5, 8, 4, 2, 1, 6 };
             Console.Write("Please enter a SV Number: ");
             input = Console.ReadLine();
 
-            if (CheckDigit(input, weight))
+            while (!String.IsNullOrEmpty(input))
             {
-                Console.WriteLine($"The SV Number \"{input}\" is valid");
-            }
-            else
-            {
-                Console.WriteLine($"The SV Number \"{input}\" is invalid");
+                int[] weight = { 3, 7, 9, 0, 5, 8, 4, 2, 1, 6 };
+                if (CheckSVNumber(input, weight))
+                {
+                    Console.WriteLine($"The SV Number \"{input}\" is valid");
+                }
+                else
+                {
+                    Console.WriteLine($"The SV Number \"{input}\" is invalid");
+                }
+                Console.Write("Please enter a SV Number: ");
+                input = Console.ReadLine();
             }
         }
         static int LengthSVNumber(string input)
