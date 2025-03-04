@@ -7,7 +7,7 @@
     <ProjectGuid>{508B6EC7-4F8D-4EC9-950A-BED854D3344E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Merging_Arrays</RootNamespace>
-    <AssemblyName>Merging_Arrays</AssemblyName>
+    <AssemblyName>Merging Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
