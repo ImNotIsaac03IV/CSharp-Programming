@@ -82,7 +82,7 @@ namespace GradeStatistic
 
                 n++;
             }
-            return jointArray;
+            return SortArray(jointArray);
         }
         static void PrintResult(int[] jointArray)
         {
@@ -113,6 +113,22 @@ namespace GradeStatistic
                 Console.Write("Insert a valid number: ");
             }
             return value;
+        }
+        static int[] SortArray(int[] input)
+        {
+            for (int i = 0; i < input.Length; i++)
+            {
+                for (int j = 0; j < input.Length - i - 1; j++)
+                {
+                    if (input[j] > input[j + 1])
+                    {
+                        int temp = input[j];
+                        input[j] = input[j + 1];
+                        input[j + 1] = temp;
+                    }
+                }
+            }
+            return input;
         }
     }
 }
