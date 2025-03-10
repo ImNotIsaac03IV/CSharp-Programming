@@ -70,7 +70,7 @@ namespace GradeStatistic
 
             int i;
 
-            for (i = 0; i < jointArray.Length / 2; i++)
+            for (i = 0; i < firstValue.Length; i++)
             {
                 jointArray[i] = firstValue[i];
             }
