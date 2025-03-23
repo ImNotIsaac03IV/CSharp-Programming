@@ -17,15 +17,7 @@ namespace Array_Statistic
             Console.Write("Please enter the count of numbers: ");
             int arraySize = Convert.ToInt32(Console.ReadLine());
 
-            int[] values = new int[arraySize];
-
-            for (int i = 0; i < values.Length; i++)
-            {
-                Console.Write($"Please enter {i + 1}. number: ");
-                int input = int.Parse(Console.ReadLine());
-
-                values[i] = input;
-            }
+            int[] values = InsertValues(arraySize);
 
             Console.Write("Please enter lower bound: ");
             int lowerBound = int.Parse(Console.ReadLine());
@@ -33,18 +25,7 @@ namespace Array_Statistic
             Console.Write("Please enter upper bound: ");
             int upperBound = int.Parse(Console.ReadLine());
 
-            int counter = 0;
-
-            for (int i = 0; i < values.Length; i++)
-            {
-                if (values[i] > lowerBound && values[i] < upperBound)
-                {
-                    counter++;
-                }
-            }
-            Console.Write($"{counter} numbers are in the range of [{lowerBound}...{upperBound}]");
-            LineBreaker();
-            StarPrinter();
+            PrintResult(values, lowerBound, upperBound);
 
             Console.ReadKey();
         }
@@ -55,6 +36,32 @@ namespace Array_Statistic
         static void LineBreaker()
         {
             Console.WriteLine();
+        }
+        static int[] InsertValues(int size)
+        {
+            int[] array = new int[size];
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write($"Please enter {i + 1}. number: ");
+                int input = int.Parse(Console.ReadLine());
+
+                array[i] = input;
+            }
+            return array;
+        }
+        static void PrintResult(int[] values, int lowerBound, int upperBound)
+        {
+            int counter = 0;
+            for (int i = 0; i < values.Length; i++)
+            {
+                if (values[i] > lowerBound && values[i] < upperBound)
+                {
+                    counter++;
+                }
+            }
+            Console.Write($"{counter} numbers are in the range of [{lowerBound}...{upperBound}]");
+            LineBreaker();
+            StarPrinter();
         }
     }
 }
