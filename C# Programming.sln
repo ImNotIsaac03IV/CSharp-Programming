@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merging Arrays", "Merging A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sieb des Eratosthenes", "Sieb des Eratosthenes\Sieb des Eratosthenes.csproj", "{0E7752BB-CB3A-48F9-8E9E-A976BFD182CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{930CBF85-5C2A-4038-83E4-F74D43667E97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{0E7752BB-CB3A-48F9-8E9E-A976BFD182CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7752BB-CB3A-48F9-8E9E-A976BFD182CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7752BB-CB3A-48F9-8E9E-A976BFD182CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930CBF85-5C2A-4038-83E4-F74D43667E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930CBF85-5C2A-4038-83E4-F74D43667E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930CBF85-5C2A-4038-83E4-F74D43667E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930CBF85-5C2A-4038-83E4-F74D43667E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
