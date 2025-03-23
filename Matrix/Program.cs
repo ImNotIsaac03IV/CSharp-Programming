@@ -28,7 +28,7 @@ namespace Matrix
         public static int ReadUserInput(string rowcolumn)
         {
             int input;
-            while (!int.TryParse(Console.ReadLine(), out input))
+            while (!int.TryParse(Console.ReadLine(), out input) || input < 0)
             {
                 Console.Write($"Invalid input, enter a number ({rowcolumn}): ");
             }
@@ -122,7 +122,6 @@ namespace Matrix
             {
                 output = false;
             }
-            Console.WriteLine();
             return output;
         }
     }
