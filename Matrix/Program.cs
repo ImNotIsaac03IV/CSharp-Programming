@@ -23,7 +23,6 @@ namespace Matrix
             while (Continue(Console.ReadLine()));
             Console.WriteLine();
             Console.WriteLine("Closing program... bye!");
-
         }
         public static int ReadUserInput(string rowcolumn)
         {
